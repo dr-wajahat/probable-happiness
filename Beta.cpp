@@ -6,20 +6,20 @@ int main ()
 {
 	
 	for (int i=0;i<5;i++)
-		cout<<"I love Pakistan."<<endl;	
+		cout<<"Pak Turk Friendship Long live."<<endl;	
 
-	bool isTodayFriday;
+	bool doYouAgree;
 	
 	char opt;
 	cout<<"Enter y for yes and n for no: ";
 	cin>>opt;
 	
 	if(opt=='y')
-	isTodayFriday=true;
+	doYouAgree=true;
 	else
-	isTodayFriday=false;
+	doYouAgree=false;
 	
-	if(isTodayFriday)
+	if(doYouAgree)
 	cout<<"Bhai Nahana Parey gaa";
 	else
 	cout<<"Khaire hi hia Cheetey";
